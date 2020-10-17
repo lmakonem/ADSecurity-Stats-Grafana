@@ -26,4 +26,4 @@ cd 'C:\Program Files\'
 
 .\telegraf --config-directory 'C:\Program Files\telegraf\telegraf.conf' --test   
 #Install telegraf.  
-.\telegraf --service install --config-directory 'C:\Program Files\telegraf\telegraf.conf
+.\telegraf --service install --config-directory 'C:\Program Files\telegraf\telegraf.conf'
