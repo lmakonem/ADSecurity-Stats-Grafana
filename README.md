@@ -15,6 +15,9 @@ Then download telegraf zipped file and output to telegraf.zip
 
 `Invoke-WebRequest https://dl.influxdata.com/telegraf/releases/telegraf-1.15.3_windows_amd64.zip -OutFile telegraf.zip`
 
+If step above fails, fix TLS error in powershell.  
+`Net.ServicePointManager]::SecurityProtocol =[Net.SecurityProtocolType]::Tls12`
+
 Extract the zipped file to C:/Program Files  
 `Expand-Archive .\telegraf.zip 'C:\Program Files\'`
 
