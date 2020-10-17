@@ -1,11 +1,11 @@
 # ADSecurity-Stats-Grafana
 
-##You can use this repo to monitor your AD Accounts stats as in this video: <url to video>
+You can use this repo to monitor your AD Accounts stats as in this video: <url to video>
   
-#Fix TLS error in powershell
+Fix TLS error in powershell
 [Net.ServicePointManager]::SecurityProtocol =[Net.SecurityProtocolType]::Tls12
 
-####Install Telegraf in Windows
+***Install Telegraf in Windows steps
 
 ##  Important, run powershell as administrator
 Go to the downloads folder  
