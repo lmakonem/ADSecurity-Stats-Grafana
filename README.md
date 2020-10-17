@@ -1,4 +1,5 @@
-# ADSecurity-Stats-Grafana
+# ADSecurity-Stats-Grafana.  
+![grafana stats](https://github.com/lmakonem/ADSecurity-Stats-Grafana/blob/main/grafana-ad-stats.png)
 
 You can use this repo to monitor your AD Accounts stats as in this video: <url to video>
   
