@@ -1,7 +1,7 @@
 # ADSecurity-Stats-Grafana.  
 ![grafana stats](https://github.com/lmakonem/ADSecurity-Stats-Grafana/blob/main/grafana-ad-stats.png)
 
-You can use this repo to monitor your AD Accounts stats as in this video: <url to video>
+You can use this repo to monitor your AD Accounts stats as in this video: https://www.youtube.com/watch?v=lJBGwzfGhwI&feature=youtu.be\
   
   1)Download the powershell script and save it in your documents folder (or whatever location you choose)\
   2)Copy the telegraf.conf contents to your C:/Program Files/telegraf location (overrite the existing one) and update with your influxdb url,user and password and the location of the script\
