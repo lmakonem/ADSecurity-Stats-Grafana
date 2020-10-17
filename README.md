@@ -1,22 +1,25 @@
 # ADSecurity-Stats-Grafana
 
-#Fix TLS error in powershell
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12 
+##You can use this repo to monitor your AD Accounts stats as in this video: <url to video>
+  
 
-####Install Telegraf in Windows
+####Install Telegraf in Windows (On your Domain Controller)
 
-## *** Important, run powershell as administrator
+## ** Important, run powershell as administrator
 #Go to the downloads folder.  
-cd Downloads
+'cd Downloads'
 
 Then download telegraf zipped file and output to telegraf.zip
-Invoke-WebRequest https://dl.influxdata.com/telegraf/releases/telegraf-1.15.3_windows_amd64.zip -OutFile telegraf.zip   
+'Invoke-WebRequest https://dl.influxdata.com/telegraf/releases/telegraf-1.15.3_windows_amd64.zip -OutFile telegraf.zip'   
+
+#Fix TLS error in powershell if you have an error after the command above  
+'[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12' 
 
 #Extract the zipped file to C:/Program Files.  
-Expand-Archive .\telegraf.zip 'C:\Program Files\' 
+'Expand-Archive .\telegraf.zip 'C:\Program Files\' '
 
 #Go to 'C:\Program Files\'. 
-cd 'C:\Program Files\' 
+'cd 'C:\Program Files\' '
 
 #Rename the telegraf-1.15.3 to telegraf by right clicking and choosing rename option. 
 
@@ -24,6 +27,7 @@ cd 'C:\Program Files\'
 
 #Test telegraf configuration.  
 
-.\telegraf --config-directory 'C:\Program Files\telegraf\telegraf.conf' --test   
+'.\telegraf --config-directory 'C:\Program Files\telegraf\telegraf.conf' --test'  
+
 #Install telegraf.  
-.\telegraf --service install --config-directory 'C:\Program Files\telegraf\telegraf.conf'
+'.\telegraf --service install --config-directory 'C:\Program Files\telegraf\telegraf.conf''
