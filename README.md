@@ -5,9 +5,9 @@ You can use this repo to monitor your AD Accounts stats as in this video: <url t
 Fix TLS error in powershell
 [Net.ServicePointManager]::SecurityProtocol =[Net.SecurityProtocolType]::Tls12
 
-***Install Telegraf in Windows steps
+### Install Telegraf in Windows steps
 
-##  Important, run powershell as administrator
+#  Important, run powershell as administrator
 Go to the downloads folder  
 `cd Downloads`
 
