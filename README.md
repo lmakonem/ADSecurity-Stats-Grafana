@@ -2,9 +2,6 @@
 ![grafana stats](https://github.com/lmakonem/ADSecurity-Stats-Grafana/blob/main/grafana-ad-stats.png)
 
 You can use this repo to monitor your AD Accounts stats as in this video: <url to video>
-  
-Fix TLS error in powershell
-[Net.ServicePointManager]::SecurityProtocol =[Net.SecurityProtocolType]::Tls12
 
 ### Install Telegraf in Windows steps
 
