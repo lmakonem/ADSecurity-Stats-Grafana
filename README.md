@@ -5,7 +5,7 @@ You can use this repo to monitor your AD Accounts stats as in this video: <url t
   
   1)Download the powershell script and save it in your documents folder (or whatever location you choose)\
   2)Copy the telegraf.conf contents to your C:/Program Files/telegraf location (overrite the existing one) and update with your influxdb url,user and password and the location of the script\
-  3)The metrics will be shipped to grafana, import the dashbord above from grafana:
+  3)The metrics will be shipped to grafana, import the dashbord above from grafana here: https://grafana.com/grafana/dashboards/13195
 
 ### Install Telegraf in Windows steps
 
